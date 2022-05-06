@@ -30,7 +30,6 @@ void Tacho::loop() {
         if (this->_next_reading_index >= NUM_READINGS) this->_next_reading_index = 0;
         this->_next_reading_time = millis() + OUTPUT_INTERVAL;
         this->_rpm.add(rpm);
-        Serial.println(this->_rpm.get());
     }
 }
 
@@ -38,6 +37,10 @@ void Tacho::increment() {
     for (uint8_t i = 0; i < NUM_READINGS; i++) {
         this->_readings[i].increment();
     }
+}
+
+uint16_t Tacho::get_rpm() {
+    return this->_rpm.get();
 }
 
 

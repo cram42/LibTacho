@@ -15,6 +15,7 @@ class Tacho {
         void begin();
         void loop();
         void increment();
+        uint16_t get_rpm();
 
         static Tacho* instance;
         static void on_interrupt();
