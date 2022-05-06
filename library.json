@@ -6,11 +6,21 @@
         "type": "git",
         "url": "https://github.com/cram42/LibTacho.git"
     },
-    "authors": [{ "name": "Cram42" }],
-    "license": "GPL3",
-    "dependencies": {
-        "MattFryer/Smoothed": "~1.2"
-    },
-    "frameworks": "*",
-    "platforms": "*"
+    "authors": [
+        {
+            "name": "Grant Le Roux",
+            "email": "grant.leroux@gmail.com"
+        }
+    ],
+    "license": "GPL-3.0-or-later",
+    "dependencies": [
+        {
+            "owner": "MattFryer",
+            "name": "Smoothed",
+            "version": "^1.2"
+        }
+    ],
+    "frameworks": [ "arduino" ],
+    "platforms": [ "atmelavr" ],
+    "headers": [ "LibTacho.h" ]
 }
