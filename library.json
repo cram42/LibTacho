@@ -1,0 +1,16 @@
+{
+    "name": "LibTacho",
+    "version": "1.0.0",
+    "description": "An Arduino library for contactless tachometer reading",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/cram42/LibTacho.git"
+    },
+    "authors": [{ "name": "Cram42" }],
+    "license": "GPL3",
+    "dependencies": {
+        "MattFryer/Smoothed": "~1.2"
+    },
+    "frameworks": "*",
+    "platforms": "*"
+}
