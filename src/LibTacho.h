@@ -1,8 +1,3 @@
 #pragma once
 
-#include <Arduino.h>
-
-class Tacho {
-    public:
-        Tacho();
-};
+#include "Tacho/Tacho.h"
